@@ -1,6 +1,6 @@
 # 🛒 E-commerce Strategic Sales & Loss Leakage Analysis
 
-**Live Dashboard:** [Insert Your Streamlit Cloud Link Here]
+**Live Dashboard:** [[Insert Your Streamlit Cloud Link Here](https://superstoredashboardsaizan.streamlit.app/)]
 
 ## 📌 Project Overview
 This project is an interactive Explanatory Data Analysis (EDA) dashboard built to identify loss leakage patterns and optimize revenue for a retail superstore. Analyzing over 10,000 sales records, this application categorizes insights into Univariate, Bivariate, and Multivariate analysis, providing clear business context for every visualization.
