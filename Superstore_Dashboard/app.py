@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -16,7 +17,10 @@ st.sidebar.divider()
 # --- 3. DATA LOADING ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv('Superstore.csv', encoding='windows-1252')
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    file_path = os.path.join(current_dir, 'Superstore.csv')
+    df = pd.read_csv(file_path, encoding='windows-1252')
     df['Order Date'] = pd.to_datetime(df['Order Date'], errors='coerce')
     return df
 
